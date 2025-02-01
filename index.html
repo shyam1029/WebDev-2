@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen ID System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Citizen ID</h1>
+    </header>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Welcome to the Citizen ID System</h2>
+            <p>Here you can apply for a new citizenship ID.</p>
+            <button onclick="window.location.href='application.html'">Apply for Citizenship</button>
+            <p>Already applied? Check status below</p>
+            <button onclick="window.location.href='checkstatus.html'">Check status</button>
+        </div>
+        <div class="right-panel">
+            <h2>Controller Login</h2>
+            <form action="loginservlet" method="get">
+                <label for="username">Username:</label>
+                <input type="text" name="user">
+                <label for="password">Password:</label>
+                <input type="password" name="pass">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

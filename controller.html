@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen ID System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Citizen ID</h1>
+        <nav>
+            <a href="./index.html">logout</a> 
+          </nav>
+    </header>
+        <div class="profile-container">
+            <div class="profile-header">
+                <h1>Welcome, Controller</h1>
+            </div>
+            <div class="profile-details">
+                <h2>Profile Details</h2>
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Occupation:</strong> Application Controller</p>
+            </div>
+            <div class="guidelines">
+                <h2>Guidelines for Citizen ID Approval</h2>
+                <ul>
+                    <li>Ensure all required fields are filled correctly.</li>
+                    <li>Verify the provided documents against the uploaded files.</li>
+                    <li>Check for any duplicate applications using the verification ID.</li>
+                    <li>Ensure the applicant's information is accurate and up-to-date.</li>
+                    <li>Approve applications only if all guidelines are met.</li>
+                    <li>Contact the applicant if any discrepancies are found.</li>
+                </ul>
+            </div>
+        </div>
+    <div class="container">
+        <form class="form-container2" action="ApproveApplicationsServlet" method="get">
+            <input type="submit" value="View All Applications">
+        </form>    
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<web-app>
+    <servlet>
+        <servlet-name>loginservlet</servlet-name>
+        <servlet-class>loginservlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginservlet</servlet-name>
+        <url-pattern>/loginservlet</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+    <servlet-name>applservlet</servlet-name>
+    <servlet-class>applservlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>applservlet</servlet-name>
+    <url-pattern>/applservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ApproveApplicationsServlet</servlet-name>
+    <servlet-class>ApproveApplicationsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ApproveApplicationsServlet</servlet-name>
+    <url-pattern>/ApproveApplicationsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CheckStatusServlet</servlet-name>
+    <servlet-class>CheckStatusServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CheckStatusServlet</servlet-name>
+    <url-pattern>/CheckStatusServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateStatusServlet</servlet-name>
+    <servlet-class>UpdateStatusServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateStatusServlet</servlet-name>
+    <url-pattern>/UpdateStatusServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
